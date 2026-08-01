@@ -1,0 +1,17 @@
+generated: '2026-07-21'
+method: searched
+source: live probes of https://stockbit.com/.well-known/*
+host: https://stockbit.com
+documents:
+- path: /.well-known/security.txt
+  status: 404
+- path: /.well-known/openid-configuration
+  status: 404
+- path: /.well-known/oauth-authorization-server
+  status: 404
+- path: /.well-known/api-catalog
+  status: 404
+- path: /.well-known/ai-plugin.json
+  status: 404
+notes: No .well-known discovery documents are published. Stockbit exposes no public
+  developer API, OAuth/OIDC authorization server, or agent-plugin surface.

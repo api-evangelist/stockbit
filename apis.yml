@@ -1,7 +1,26 @@
 aid: stockbit
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/stockbit.png
 name: Stockbit
-description: Stockbit is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Stockbit (PT Stockbit Sekuritas Digital) is an Indonesian retail-investing
+  platform and social community for the Indonesia Stock Exchange (IDX), letting members
+  discuss, analyze, and trade stocks with real-time market data, fundamentals, trading
+  ideas, news, and sentiment. The product is delivered as consumer iOS and Android
+  apps plus a web experience, with a separate crypto brand (Stockbit Crypto). It was
+  surfaced as a portfolio company of 500 Global. As of this enrichment pass Stockbit
+  publishes no public developer API, developer portal, OpenAPI/Swagger definition,
+  SDK, or .well-known discovery surface — the profile is maintained as a consumer-app
+  company record rather than an API provider.
 url: https://raw.githubusercontent.com/api-evangelist/stockbit/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +30,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Fintech
+- Investing
+- Stock Trading
+- Brokerage
+- Indonesia
+- Financial Services
+- Cryptocurrency
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +49,24 @@ maintainers:
 common:
 - type: Website
   url: https://stockbit.com
+- type: About
+  url: https://stockbit.com/about
+- type: Support
+  url: https://help.stockbit.com/id/
+- type: HelpCenter
+  url: https://help.stockbit.com/id/
+- type: Contact
+  url: https://stockbit.com/contact
+- type: TermsOfService
+  url: https://stockbit.com/terms
+- type: PrivacyPolicy
+  url: https://stockbit.com/privacy
+- type: GitHubOrganization
+  url: https://github.com/stockbit
+- type: DomainSecurity
+  url: security/stockbit-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 2
+  pass: local-v1
