@@ -49,7 +49,7 @@ tags:
 - Stock Trading
 - Brokerage
 - Indonesia
-- Financial-Services
+- Financial Services
 - Cryptocurrency
 tags_raw:
 - Company
@@ -60,6 +60,7 @@ tags_raw:
 - Indonesia
 - Financial Services
 - Cryptocurrency
+- Financial-Services
 apis: []
 maintainers:
 - FN: Kin Lane
